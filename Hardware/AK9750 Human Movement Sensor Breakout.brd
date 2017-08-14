@@ -197,6 +197,12 @@ View
 <text x="10.16" y="-20.32" size="1.778" layer="51" font="vector">A. England</text>
 <text x="10.795" y="17.78" size="0.8128" layer="21" font="vector" ratio="15">I2C PU</text>
 <text x="19.812" y="10.033" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270">JP8</text>
+<text x="11.303" y="1.397" size="0.381" layer="20" font="vector">Route out</text>
+<text x="24.13" y="11.303" size="0.381" layer="20" font="vector" rot="R90">Route out</text>
+<text x="14.224" y="24.13" size="0.381" layer="20" font="vector" rot="R180">Route out</text>
+<text x="1.27" y="14.224" size="0.381" layer="20" font="vector" rot="R270">Route out</text>
+<text x="11.938" y="12.827" size="0.381" layer="20" font="vector">Route</text>
+<text x="12.319" y="12.192" size="0.381" layer="20" font="vector">out</text>
 </plain>
 <libraries>
 <library name="SparkFun">
