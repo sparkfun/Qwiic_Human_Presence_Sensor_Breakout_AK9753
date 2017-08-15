@@ -17034,6 +17034,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="187.96" y="108.204" size="1.27" layer="97" align="center-left">1   1    Switch Mode</text>
 <text x="174.498" y="7.112" size="2.54" layer="94">A. England</text>
 <text x="169.672" y="71.12" size="1.27" layer="97" font="vector" align="center-left">Interrupt Pullup</text>
+<wire x1="0" y1="91.44" x2="139.7" y2="91.44" width="0.1524" layer="97" style="longdash"/>
+<wire x1="139.7" y1="91.44" x2="248.92" y2="91.44" width="0.1524" layer="97" style="longdash"/>
+<wire x1="139.7" y1="91.44" x2="139.7" y2="185.42" width="0.1524" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="73.66" y="104.14"/>
@@ -17334,13 +17337,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="63.5" y1="121.92" x2="63.5" y2="127" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
 <junction x="63.5" y="121.92"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="0" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91" style="longdash"/>
-<wire x1="142.24" y1="88.9" x2="248.92" y2="88.9" width="0.1524" layer="91" style="longdash"/>
-<wire x1="142.24" y1="88.9" x2="142.24" y2="185.42" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 </nets>
