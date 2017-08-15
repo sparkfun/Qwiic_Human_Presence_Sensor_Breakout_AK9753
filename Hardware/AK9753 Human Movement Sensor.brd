@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -46,15 +46,15 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -203,6 +203,12 @@ View
 <text x="1.27" y="14.224" size="0.381" layer="20" font="vector" rot="R270">Route out</text>
 <text x="11.938" y="12.827" size="0.381" layer="20" font="vector">Route</text>
 <text x="12.319" y="12.192" size="0.381" layer="20" font="vector">out</text>
+<dimension x1="10.9855" y1="2.2225" x2="14.4145" y2="2.2225" x3="12.7" y3="-4.953" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="10.9855" y2="0" x3="5.49275" y3="-3.7465" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="25.4" y2="0" x3="12.7" y3="-8.509" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="1.397" y1="10.9855" x2="1.397" y2="14.478" x3="-3.4925" y3="12.73175" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="25.4" x3="-12.573" y3="12.7" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="1.4605" y1="10.9855" x2="1.4605" y2="0.127" x3="-8.509" y3="5.55625" textsize="1.778" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun">
