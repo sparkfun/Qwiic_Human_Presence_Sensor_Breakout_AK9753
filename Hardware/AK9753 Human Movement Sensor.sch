@@ -16845,10 +16845,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="1" x="2.225" y="1.3" dx="0.7" dy="0.38" layer="1"/>
 <smd name="4" x="2.225" y="-0.65" dx="0.7" dy="0.38" layer="1"/>
 <smd name="5" x="2.225" y="-1.3" dx="0.7" dy="0.38" layer="1"/>
-<wire x1="-1.2" y1="1.8" x2="1.2" y2="1.8" width="0.127" layer="46"/>
-<wire x1="1.2" y1="1.8" x2="1.2" y2="-0.3" width="0.127" layer="46"/>
-<wire x1="1.2" y1="-0.3" x2="-1.2" y2="-0.3" width="0.127" layer="46"/>
-<wire x1="-1.2" y1="-0.3" x2="-1.2" y2="1.8" width="0.127" layer="46"/>
+<wire x1="-1.25" y1="1.9" x2="1.25" y2="1.9" width="0.127" layer="46"/>
+<wire x1="1.25" y1="1.9" x2="1.25" y2="-0.4" width="0.127" layer="46"/>
+<wire x1="1.25" y1="-0.4" x2="-1.25" y2="-0.4" width="0.127" layer="46"/>
+<wire x1="-1.25" y1="-0.4" x2="-1.25" y2="1.9" width="0.127" layer="46"/>
 <wire x1="-2.3" y1="1.7" x2="-2.3" y2="1.9" width="0.2032" layer="21"/>
 <wire x1="-2.3" y1="1.9" x2="2.3" y2="1.9" width="0.2032" layer="21"/>
 <wire x1="2.3" y1="1.9" x2="2.3" y2="1.7" width="0.2032" layer="21"/>
@@ -16857,11 +16857,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.3" y1="-1.9" x2="2.3" y2="-1.7" width="0.2032" layer="21"/>
 <text x="-1.3335" y="-1.06045" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
 <text x="-1.3589" y="-1.82245" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
-<rectangle x1="-1.2" y1="-0.3" x2="1.2" y2="1.8" layer="39"/>
-<wire x1="-1.2" y1="1.8" x2="1.2" y2="1.8" width="0.127" layer="20"/>
-<wire x1="1.2" y1="1.8" x2="1.2" y2="-0.3" width="0.127" layer="20"/>
-<wire x1="1.2" y1="-0.3" x2="-1.2" y2="-0.3" width="0.127" layer="20"/>
-<wire x1="-1.2" y1="-0.3" x2="-1.2" y2="1.8" width="0.127" layer="20"/>
+<rectangle x1="-1.25" y1="-0.4" x2="1.25" y2="1.9" layer="39"/>
+<wire x1="-1.25" y1="1.9" x2="1.25" y2="1.9" width="0.127" layer="20"/>
+<wire x1="1.25" y1="1.9" x2="1.25" y2="-0.4" width="0.127" layer="20"/>
+<wire x1="1.25" y1="-0.4" x2="-1.25" y2="-0.4" width="0.127" layer="20"/>
+<wire x1="-1.25" y1="-0.4" x2="-1.25" y2="1.9" width="0.127" layer="20"/>
 <text x="-0.1" y="0.1" size="0.254" layer="21">3</text>
 <text x="-0.1" y="1.2" size="0.254" layer="21">1</text>
 <text x="-0.7" y="0.6" size="0.254" layer="21">2</text>
