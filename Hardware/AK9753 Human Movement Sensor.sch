@@ -16426,391 +16426,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="openPIR-temp">
-<packages>
-<package name="LENS-CWM-0.5-GI-V1">
-<description>&lt;h3&gt;Zilog CWM 0.5 GI V1 PIR Lens&lt;/h3&gt;
-&lt;p&gt;The CWM 0.5 GI V1 lens array is intended for both wall and ceiling-mounted applications, and is optimized for both dual and quad element pyroelectric detectors. The lens is intended to clip directly into the circuit board, over top of the pyroelectric sensor.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://media.digikey.com/pdf/Data%20Sheets/ZiLOG%20PDFs/Zmotion%20Lens%20&amp;%20Pyroelectric%20Sensor%20Spec.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-12.1" y1="10" x2="-12.1" y2="-10" width="0.2032" layer="21"/>
-<wire x1="-12" y1="-10" x2="-10" y2="-12" width="0.127" layer="51" curve="90"/>
-<wire x1="-10" y1="-12.1" x2="10" y2="-12.1" width="0.2032" layer="21"/>
-<wire x1="10" y1="-12" x2="12" y2="-10" width="0.127" layer="51" curve="90"/>
-<wire x1="12" y1="-10" x2="12" y2="10" width="0.127" layer="51"/>
-<wire x1="12" y1="10" x2="10" y2="12" width="0.127" layer="51" curve="90"/>
-<wire x1="10" y1="12.1" x2="-5.9" y2="12.1" width="0.2032" layer="21"/>
-<wire x1="-5.9" y1="12.1" x2="-8.1" y2="12.1" width="0.2032" layer="21"/>
-<wire x1="-8.1" y1="12.1" x2="-10" y2="12.1" width="0.2032" layer="21"/>
-<wire x1="-10" y1="12" x2="-12" y2="10" width="0.127" layer="51" curve="90"/>
-<circle x="0" y="0" radius="12" width="0.127" layer="51"/>
-<wire x1="-12.5" y1="1.6" x2="-12.5" y2="-1.6" width="0.127" layer="51"/>
-<wire x1="-12.5" y1="-1.6" x2="-11" y2="-1.6" width="0.127" layer="51"/>
-<wire x1="-11" y1="-1.6" x2="-11" y2="1.6" width="0.127" layer="51"/>
-<wire x1="-12.5" y1="1.6" x2="-11" y2="1.6" width="0.127" layer="51"/>
-<wire x1="12.5" y1="-1.6" x2="12.5" y2="1.6" width="0.127" layer="51"/>
-<wire x1="12.5" y1="1.6" x2="11" y2="1.6" width="0.127" layer="51"/>
-<wire x1="11" y1="1.6" x2="11" y2="-1.6" width="0.127" layer="51"/>
-<wire x1="12.5" y1="-1.6" x2="11" y2="-1.6" width="0.127" layer="51"/>
-<wire x1="1.6" y1="12.5" x2="-1.6" y2="12.5" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="12.5" x2="-1.6" y2="11" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="11" x2="1.6" y2="11" width="0.127" layer="51"/>
-<wire x1="1.6" y1="12.5" x2="1.6" y2="11" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-12.5" x2="1.6" y2="-12.5" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-12.5" x2="1.6" y2="-11" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-11" x2="-1.6" y2="-11" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-12.5" x2="-1.6" y2="-11" width="0.127" layer="51"/>
-<polygon width="0.127" layer="41">
-<vertex x="-12.05" y="1.7"/>
-<vertex x="-10.45" y="1.7"/>
-<vertex x="-10.45" y="-1.7"/>
-<vertex x="-12.05" y="-1.7"/>
-</polygon>
-<polygon width="0.127" layer="46">
-<vertex x="-1.7" y="-12.05"/>
-<vertex x="-1.7" y="-10.45"/>
-<vertex x="1.7" y="-10.45"/>
-<vertex x="1.7" y="-12.05"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="12.05" y="-1.7"/>
-<vertex x="10.45" y="-1.7"/>
-<vertex x="10.45" y="1.7"/>
-<vertex x="12.05" y="1.7"/>
-</polygon>
-<polygon width="0.127" layer="46">
-<vertex x="1.7" y="12.05"/>
-<vertex x="1.7" y="10.45"/>
-<vertex x="-1.7" y="10.45"/>
-<vertex x="-1.7" y="12.05"/>
-</polygon>
-<circle x="0" y="0" radius="4.6" width="0.127" layer="51"/>
-<rectangle x1="-2.35" y1="-1.85" x2="2.35" y2="1.85" layer="51" rot="R180"/>
-<wire x1="4.6" y1="0.2" x2="4.6" y2="-0.2" width="0.127" layer="51"/>
-<rectangle x1="4.6" y1="-0.25" x2="5.2" y2="0.25" layer="51" rot="R180"/>
-<circle x="0" y="0" radius="4.8" width="0.2032" layer="21"/>
-<rectangle x1="4.7" y1="-0.5" x2="5.7" y2="0.5" layer="21" rot="R180"/>
-<wire x1="2.35" y1="-1.85" x2="2.35" y2="1.85" width="0.127" layer="21"/>
-<wire x1="2.35" y1="1.85" x2="-2.35" y2="1.85" width="0.127" layer="21"/>
-<wire x1="-2.35" y1="1.85" x2="-2.35" y2="-1.85" width="0.127" layer="21"/>
-<wire x1="-2.35" y1="-1.85" x2="2.35" y2="-1.85" width="0.127" layer="21"/>
-<wire x1="-10" y1="-12" x2="10" y2="-12" width="0.127" layer="51"/>
-<wire x1="-12.1" y1="-10" x2="-10" y2="-12.1" width="0.2032" layer="21" curve="90"/>
-<wire x1="-12" y1="10" x2="-12" y2="-10" width="0.127" layer="51"/>
-<wire x1="10" y1="-12.1" x2="12.1" y2="-10" width="0.2032" layer="21" curve="90"/>
-<wire x1="12.1" y1="-10" x2="12.1" y2="10" width="0.2032" layer="21"/>
-<wire x1="12.1" y1="10" x2="10" y2="12.1" width="0.2032" layer="21" curve="90"/>
-<wire x1="10" y1="12" x2="-6" y2="12" width="0.127" layer="51"/>
-<wire x1="-6" y1="12" x2="-8" y2="12" width="0.127" layer="51"/>
-<wire x1="-8" y1="12" x2="-10" y2="12" width="0.127" layer="51"/>
-<wire x1="-10" y1="12.1" x2="-12.1" y2="10" width="0.2032" layer="21" curve="90"/>
-<wire x1="-8" y1="12" x2="-8" y2="12.365" width="0.127" layer="51"/>
-<wire x1="-8" y1="12.365" x2="-7" y2="13.365" width="0.127" layer="51" curve="-90"/>
-<wire x1="-7" y1="13.465" x2="-5.9" y2="12.365" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-5.9" y1="12.365" x2="-5.9" y2="12.1" width="0.2032" layer="21"/>
-<wire x1="-8.1" y1="12.1" x2="-8.1" y2="12.365" width="0.2032" layer="21"/>
-<wire x1="-8.1" y1="12.365" x2="-7" y2="13.465" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-7" y1="13.365" x2="-6" y2="12.365" width="0.127" layer="51" curve="-90"/>
-<wire x1="-6" y1="12.365" x2="-6" y2="12" width="0.127" layer="51"/>
-<polygon width="0.127" layer="46">
-<vertex x="-12.05" y="1.7"/>
-<vertex x="-10.45" y="1.7"/>
-<vertex x="-10.45" y="-1.7"/>
-<vertex x="-12.05" y="-1.7"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="1.7" y="12.05"/>
-<vertex x="1.7" y="10.45"/>
-<vertex x="-1.7" y="10.45"/>
-<vertex x="-1.7" y="12.05"/>
-</polygon>
-<polygon width="0.127" layer="46">
-<vertex x="12.05" y="-1.7"/>
-<vertex x="10.45" y="-1.7"/>
-<vertex x="10.45" y="1.7"/>
-<vertex x="12.05" y="1.7"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-1.7" y="-12.05"/>
-<vertex x="-1.7" y="-10.45"/>
-<vertex x="1.7" y="-10.45"/>
-<vertex x="1.7" y="-12.05"/>
-</polygon>
-<polygon width="0.127" layer="42">
-<vertex x="-12.05" y="1.7"/>
-<vertex x="-10.45" y="1.7"/>
-<vertex x="-10.45" y="-1.7"/>
-<vertex x="-12.05" y="-1.7"/>
-</polygon>
-<polygon width="0.127" layer="42">
-<vertex x="12.05" y="-1.7"/>
-<vertex x="10.45" y="-1.7"/>
-<vertex x="10.45" y="1.7"/>
-<vertex x="12.05" y="1.7"/>
-</polygon>
-<polygon width="0.127" layer="42">
-<vertex x="1.7" y="12.05"/>
-<vertex x="1.7" y="10.45"/>
-<vertex x="-1.7" y="10.45"/>
-<vertex x="-1.7" y="12.05"/>
-</polygon>
-<polygon width="0.127" layer="42">
-<vertex x="-1.7" y="-12.05"/>
-<vertex x="-1.7" y="-10.45"/>
-<vertex x="1.7" y="-10.45"/>
-<vertex x="1.7" y="-12.05"/>
-</polygon>
-<polygon width="0.127" layer="46">
-<vertex x="-12.05" y="1.7"/>
-<vertex x="-10.45" y="1.7"/>
-<vertex x="-10.45" y="-1.7"/>
-<vertex x="-12.05" y="-1.7"/>
-</polygon>
-<wire x1="-10.45" y1="1.7" x2="-10.45" y2="-1.7" width="0.127" layer="20"/>
-<wire x1="-12.05" y1="1.7" x2="-12.05" y2="-1.7" width="0.127" layer="20"/>
-<wire x1="-12.05" y1="1.7" x2="-10.45" y2="1.7" width="0.127" layer="20"/>
-<wire x1="-10.45" y1="-1.7" x2="-12.05" y2="-1.7" width="0.127" layer="20"/>
-<wire x1="12.05" y1="1.7" x2="12.05" y2="-1.7" width="0.127" layer="20"/>
-<wire x1="10.45" y1="1.7" x2="10.45" y2="-1.7" width="0.127" layer="20"/>
-<wire x1="10.45" y1="1.7" x2="12.05" y2="1.7" width="0.127" layer="20"/>
-<wire x1="12.05" y1="-1.7" x2="10.45" y2="-1.7" width="0.127" layer="20"/>
-<wire x1="-1.7" y1="12.05" x2="1.7" y2="12.05" width="0.127" layer="20"/>
-<wire x1="-1.7" y1="10.45" x2="1.7" y2="10.45" width="0.127" layer="20"/>
-<wire x1="-1.7" y1="10.45" x2="-1.7" y2="12.05" width="0.127" layer="20"/>
-<wire x1="1.7" y1="12.05" x2="1.7" y2="10.45" width="0.127" layer="20"/>
-<wire x1="-1.7" y1="-10.45" x2="1.7" y2="-10.45" width="0.127" layer="20"/>
-<wire x1="-1.7" y1="-12.05" x2="1.7" y2="-12.05" width="0.127" layer="20"/>
-<wire x1="-1.7" y1="-12.05" x2="-1.7" y2="-10.45" width="0.127" layer="20"/>
-<wire x1="1.7" y1="-10.45" x2="1.7" y2="-12.05" width="0.127" layer="20"/>
-</package>
-<package name="LENS-AA-0.9-GI-T1">
-<description>&lt;h3&gt;Zilog AA 0.9 GI T1 PIR Lens&lt;/h3&gt;
-&lt;p&gt;The AA 0.9 GI T1 lens array is optimized for dual element pyroelectric sensors in long range sensing applications. It is normally used with the grooved side facing the pyroelectric detector, and curved at a 0.9 inch (22.9 mm) radius about the sensitive area of the detector. The detector position should be 0.492" (12.5 mm) below the upper edge, and centered left-right.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://media.digikey.com/pdf/Data%20Sheets/ZiLOG%20PDFs/Zmotion%20Lens%20&amp;%20Pyroelectric%20Sensor%20Spec.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-6.55" y1="-23.1" x2="-6.55" y2="12.5" width="0.127" layer="51"/>
-<wire x1="6.55" y1="12.5" x2="6.55" y2="-23.1" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="4.6" width="0.127" layer="51"/>
-<wire x1="-6.55" y1="12.5" x2="6.55" y2="12.5" width="0.127" layer="51"/>
-<wire x1="6.55" y1="-23.1" x2="-6.55" y2="-23.1" width="0.127" layer="51"/>
-<rectangle x1="-2.35" y1="-1.85" x2="2.35" y2="1.85" layer="51" rot="R180"/>
-<wire x1="4.6" y1="0.2" x2="4.6" y2="-0.2" width="0.127" layer="51"/>
-<rectangle x1="4.6" y1="-0.25" x2="5.2" y2="0.25" layer="51" rot="R180"/>
-<circle x="0" y="0" radius="4.8" width="0.2032" layer="21"/>
-<rectangle x1="4.7" y1="-0.5" x2="5.7" y2="0.5" layer="21" rot="R180"/>
-<wire x1="2.35" y1="-1.85" x2="2.35" y2="1.85" width="0.127" layer="21"/>
-<wire x1="2.35" y1="1.85" x2="-2.35" y2="1.85" width="0.127" layer="21"/>
-<wire x1="-2.35" y1="1.85" x2="-2.35" y2="-1.85" width="0.127" layer="21"/>
-<wire x1="-2.35" y1="-1.85" x2="2.35" y2="-1.85" width="0.127" layer="21"/>
-<text x="0" y="5" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="-7.8" y="11.24" radius="0.508" width="0.127" layer="51"/>
-<circle x="-7.8" y="8.7" radius="0.508" width="0.127" layer="51"/>
-<circle x="7.81" y="11.25" radius="0.508" width="0.127" layer="51"/>
-<circle x="7.81" y="8.71" radius="0.508" width="0.127" layer="51"/>
-<circle x="-7.8" y="-19.24" radius="0.508" width="0.127" layer="51"/>
-<circle x="-7.8" y="-21.78" radius="0.508" width="0.127" layer="51"/>
-<circle x="7.81" y="-21.77" radius="0.508" width="0.127" layer="51"/>
-<circle x="7.81" y="-19.23" radius="0.508" width="0.127" layer="51"/>
-</package>
-<package name="LENS-NCL-11">
-<description>&lt;h3&gt;Zilog NCL-11 PIR Lens&lt;/h3&gt;
-&lt;p&gt;The NCL-11 lens is intended for wall-mounted room occupancy and proximity sensing applications with 32 detection zones.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://media.digikey.com/pdf/Data%20Sheets/ZiLOG%20PDFs/Zmotion%20Lens%20&amp;%20Pyroelectric%20Sensor%20Spec.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-11.6" y1="5.6" x2="-11.6" y2="-5.6" width="0.2032" layer="21"/>
-<wire x1="-11.5" y1="-3" x2="-11.5" y2="-5.5" width="0.127" layer="51"/>
-<wire x1="7.45" y1="5.5" x2="7.45" y2="6.5" width="0.127" layer="51"/>
-<wire x1="7.45" y1="6.5" x2="4.45" y2="6.5" width="0.127" layer="51"/>
-<wire x1="4.45" y1="6.5" x2="4.45" y2="5.5" width="0.127" layer="51"/>
-<wire x1="-7.45" y1="-5.5" x2="-7.45" y2="-6.5" width="0.127" layer="51"/>
-<wire x1="-7.45" y1="-6.5" x2="-4.45" y2="-6.5" width="0.127" layer="51"/>
-<wire x1="-4.45" y1="-6.5" x2="-4.45" y2="-5.5" width="0.127" layer="51"/>
-<wire x1="-11.5" y1="-3" x2="-12.5" y2="-3" width="0.127" layer="51"/>
-<wire x1="-12.5" y1="-3" x2="-12.5" y2="0" width="0.127" layer="51"/>
-<wire x1="-12.5" y1="0" x2="-11.5" y2="0" width="0.127" layer="51"/>
-<wire x1="12.5" y1="-3" x2="12.5" y2="0" width="0.127" layer="51"/>
-<wire x1="12.5" y1="0" x2="11.5" y2="0" width="0.127" layer="51"/>
-<wire x1="11.5" y1="-3" x2="12.5" y2="-3" width="0.127" layer="51"/>
-<wire x1="-3.1" y1="5.5" x2="-11.5" y2="5.5" width="0.127" layer="51"/>
-<wire x1="11.6" y1="5.6" x2="3.1" y2="5.6" width="0.2032" layer="21"/>
-<wire x1="11.6" y1="-5.6" x2="11.6" y2="5.6" width="0.2032" layer="21"/>
-<wire x1="3.85" y1="-5.6" x2="11.6" y2="-5.6" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="-8.1" x2="1.6" y2="-6.6" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="-8.1" x2="-1.6" y2="-8.1" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="-8.1" x2="-1.6" y2="-6.6" width="0.2032" layer="21"/>
-<wire x1="-7.45" y1="-5.5" x2="-4.45" y2="-5.5" width="0.127" layer="51"/>
-<wire x1="-11.5" y1="-5.5" x2="-7.45" y2="-5.5" width="0.127" layer="51"/>
-<wire x1="-11.5" y1="0" x2="-11.5" y2="-3" width="0.127" layer="51"/>
-<wire x1="-11.5" y1="5.5" x2="-11.5" y2="0" width="0.127" layer="51"/>
-<wire x1="-3.1" y1="5.6" x2="-11.6" y2="5.6" width="0.2032" layer="21"/>
-<wire x1="7.45" y1="5.5" x2="4.45" y2="5.5" width="0.127" layer="51"/>
-<wire x1="4.45" y1="5.5" x2="3.1" y2="5.5" width="0.127" layer="51"/>
-<wire x1="11.5" y1="5.5" x2="7.45" y2="5.5" width="0.127" layer="51"/>
-<wire x1="11.5" y1="0" x2="11.5" y2="5.5" width="0.127" layer="51"/>
-<wire x1="11.5" y1="-5.5" x2="11.5" y2="-3" width="0.127" layer="51"/>
-<wire x1="11.5" y1="-3" x2="11.5" y2="0" width="0.127" layer="51"/>
-<wire x1="3.8" y1="-5.5" x2="11.5" y2="-5.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-8" x2="1.5" y2="-6.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-8" x2="-1.5" y2="-8" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-8" x2="-1.5" y2="-6.5" width="0.127" layer="51"/>
-<wire x1="-4.45" y1="-5.5" x2="-3.8" y2="-5.5" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="4.6" width="0.127" layer="51"/>
-<rectangle x1="-2.35" y1="-1.85" x2="2.35" y2="1.85" layer="51" rot="R180"/>
-<wire x1="4.6" y1="0.2" x2="4.6" y2="-0.2" width="0.127" layer="51"/>
-<rectangle x1="-5.2" y1="-0.25" x2="-4.6" y2="0.25" layer="51"/>
-<circle x="0" y="0" radius="4.8" width="0.2032" layer="21"/>
-<rectangle x1="-5.7" y1="-0.5" x2="-4.7" y2="0.5" layer="21"/>
-<wire x1="2.35" y1="-1.85" x2="2.35" y2="1.85" width="0.127" layer="21"/>
-<wire x1="2.35" y1="1.85" x2="-2.35" y2="1.85" width="0.127" layer="21"/>
-<wire x1="-2.35" y1="1.85" x2="-2.35" y2="-1.85" width="0.127" layer="21"/>
-<wire x1="-2.35" y1="-1.85" x2="2.35" y2="-1.85" width="0.127" layer="21"/>
-<wire x1="4.45" y1="5.5" x2="4.45" y2="4.5" width="0.127" layer="51"/>
-<wire x1="4.45" y1="4.5" x2="7.45" y2="4.5" width="0.127" layer="51"/>
-<wire x1="7.45" y1="4.5" x2="7.45" y2="5.5" width="0.127" layer="51"/>
-<wire x1="-4.45" y1="-5.5" x2="-4.45" y2="-4.5" width="0.127" layer="51"/>
-<wire x1="-4.45" y1="-4.5" x2="-7.45" y2="-4.5" width="0.127" layer="51"/>
-<wire x1="-7.45" y1="-4.5" x2="-7.45" y2="-5.5" width="0.127" layer="51"/>
-<wire x1="-11.5" y1="-3" x2="-10.5" y2="-3" width="0.127" layer="51"/>
-<wire x1="-10.5" y1="-3" x2="-10.5" y2="0" width="0.127" layer="51"/>
-<wire x1="-10.5" y1="0" x2="-11.5" y2="0" width="0.127" layer="51"/>
-<wire x1="11.5" y1="-3" x2="10.5" y2="-3" width="0.127" layer="51"/>
-<wire x1="10.5" y1="-3" x2="10.5" y2="0" width="0.127" layer="51"/>
-<wire x1="10.5" y1="0" x2="11.5" y2="0" width="0.127" layer="51"/>
-<polygon width="0.127" layer="46">
-<vertex x="-4.4" y="-5.75"/>
-<vertex x="-4.4" y="-3.25"/>
-<vertex x="-7.5" y="-3.25"/>
-<vertex x="-7.5" y="-5.75"/>
-</polygon>
-<polygon width="0.127" layer="46">
-<vertex x="11.75" y="-3.05"/>
-<vertex x="9.25" y="-3.05"/>
-<vertex x="9.25" y="0.05"/>
-<vertex x="11.75" y="0.05"/>
-</polygon>
-<polygon width="0.127" layer="46">
-<vertex x="4.4" y="5.75"/>
-<vertex x="4.4" y="3.25"/>
-<vertex x="7.5" y="3.25"/>
-<vertex x="7.5" y="5.75"/>
-</polygon>
-<polygon width="0.127" layer="42">
-<vertex x="-4.4" y="-5.75"/>
-<vertex x="-4.4" y="-3.25"/>
-<vertex x="-7.5" y="-3.25"/>
-<vertex x="-7.5" y="-5.75"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-4.4" y="-5.75"/>
-<vertex x="-4.4" y="-3.25"/>
-<vertex x="-7.5" y="-3.25"/>
-<vertex x="-7.5" y="-5.75"/>
-</polygon>
-<polygon width="0.127" layer="46">
-<vertex x="-11.75" y="-3.05"/>
-<vertex x="-9.25" y="-3.05"/>
-<vertex x="-9.25" y="0.05"/>
-<vertex x="-11.75" y="0.05"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-11.75" y="-3.05"/>
-<vertex x="-9.25" y="-3.05"/>
-<vertex x="-9.25" y="0.05"/>
-<vertex x="-11.75" y="0.05"/>
-</polygon>
-<polygon width="0.127" layer="42">
-<vertex x="-11.75" y="-3.05"/>
-<vertex x="-9.25" y="-3.05"/>
-<vertex x="-9.25" y="0.05"/>
-<vertex x="-11.75" y="0.05"/>
-</polygon>
-<polygon width="0.127" layer="42">
-<vertex x="4.4" y="5.75"/>
-<vertex x="4.4" y="3.25"/>
-<vertex x="7.5" y="3.25"/>
-<vertex x="7.5" y="5.75"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="4.4" y="5.75"/>
-<vertex x="4.4" y="3.25"/>
-<vertex x="7.5" y="3.25"/>
-<vertex x="7.5" y="5.75"/>
-</polygon>
-<polygon width="0.127" layer="42">
-<vertex x="11.75" y="-3.05"/>
-<vertex x="9.25" y="-3.05"/>
-<vertex x="9.25" y="0.05"/>
-<vertex x="11.75" y="0.05"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="11.75" y="-3.05"/>
-<vertex x="9.25" y="-3.05"/>
-<vertex x="9.25" y="0.05"/>
-<vertex x="11.75" y="0.05"/>
-</polygon>
-<wire x1="-3.1" y1="5.5" x2="0" y2="6.5" width="0.127" layer="51" curve="-35.757393"/>
-<wire x1="3.1" y1="5.6" x2="0" y2="6.6" width="0.2032" layer="21" curve="35.757393"/>
-<wire x1="-3.1" y1="5.6" x2="0" y2="6.6" width="0.2032" layer="21" curve="-35.757393"/>
-<wire x1="3.1" y1="5.5" x2="0" y2="6.5" width="0.127" layer="51" curve="35.757393"/>
-<wire x1="3.85" y1="-5.6" x2="1.6" y2="-6.6" width="0.2032" layer="21" curve="-46.997131"/>
-<wire x1="-3.8" y1="-5.5" x2="-1.5" y2="-6.5" width="0.127" layer="51" curve="46.997131"/>
-<wire x1="3.8" y1="-5.5" x2="1.5" y2="-6.5" width="0.127" layer="51" curve="-46.997131"/>
-<wire x1="-3.85" y1="-5.6" x2="-1.6" y2="-6.6" width="0.2032" layer="21" curve="46.997131"/>
-<wire x1="-3.85" y1="-5.6" x2="-11.6" y2="-5.6" width="0.2032" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PIR-LENS">
-<description>&lt;h3&gt;PIR Fresnel Lens&lt;/h3&gt;
-&lt;p&gt;Fresnel lenses are used to modify the &lt;b&gt;field-of-view&lt;/b&gt; of PIR sensors. They are available with a range of focal lengths, viewing angles, and viewing distances.&lt;/p&gt;
-&lt;p&gt;&lt;a href=http://media.digikey.com/pdf/Data%20Sheets/ZiLOG%20PDFs/Zmotion%20Lens%20&amp;%20Pyroelectric%20Sensor%20Spec.pdf&gt;Example datasheet (Zilog lenses)&lt;/a&gt;&lt;/p&gt;</description>
-<text x="0" y="0" size="2.54" layer="94" font="vector" ratio="15" align="center">PIR Lens</text>
-<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="12.7" y2="2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.254" layer="94"/>
-<text x="0" y="-3.048" size="1.778" layer="96" font="vector" ratio="15" align="center">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PIR-LENS" uservalue="yes">
-<description>&lt;h3&gt;PIR Fresnel Lens&lt;/h3&gt;
-&lt;p&gt;Fresnel lenses are used to modify the &lt;b&gt;field-of-view&lt;/b&gt; of PIR sensors. They are available with a range of focal lengths, viewing angles, and viewing distances.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Variant list&lt;/b&gt;
-&lt;table border=1&gt;
-&lt;tr&gt;&lt;th&gt;Variant Name&lt;/th&gt;&lt;th&gt;Manufacturer&lt;/th&gt;&lt;th&gt;Mfr Part#&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;AA-0.9-GI-T1&lt;/td&gt;&lt;td&gt;Zilog&lt;/td&gt;&lt;td&gt;ZAA09GIT1&lt;/td&gt;&lt;td&gt;35.6mm x 49.9mm Flat Lens&lt;br&gt;88&amp;deg; viewing angle&lt;br&gt;22.9mm focal length&lt;br&gt;25m range&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CWM-0.5-GI-V1&lt;/td&gt;&lt;td&gt;Zilog&lt;/td&gt;&lt;td&gt;ZCWM05GIV1&lt;/td&gt;&lt;td&gt;PCB-mount circular lens&lt;br&gt;14.2mm focal length&lt;br&gt;180&amp;deg; viewing angle&lt;td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;NCL-11&lt;/td&gt;&lt;td&gt;Zilog&lt;/td&gt;&lt;td&gt;NCL-11&lt;/td&gt;&lt;td&gt;PCB-mount, black rectangular lens&lt;br&gt;104&amp;deg; viewing angle&lt;br&gt;4m range&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;a href=http://media.digikey.com/pdf/Data%20Sheets/ZiLOG%20PDFs/Zmotion%20Lens%20&amp;%20Pyroelectric%20Sensor%20Spec.pdf&gt;Datasheet for Zilog lensees&lt;/a&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="PIR-LENS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="CWM-0.5-GI-V1" package="LENS-CWM-0.5-GI-V1">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="CWM 0.5 GI V1"/>
-</technology>
-</technologies>
-</device>
-<device name="AA-0.9-GI-T1" package="LENS-AA-0.9-GI-T1">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="AA 0.9 GI T1"/>
-</technology>
-</technologies>
-</device>
-<device name="NCL-11" package="LENS-NCL-11">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="NCL-11"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Sensors">
 <description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
 This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
@@ -16845,10 +16460,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="1" x="2.225" y="1.3" dx="0.7" dy="0.38" layer="1"/>
 <smd name="4" x="2.225" y="-0.65" dx="0.7" dy="0.38" layer="1"/>
 <smd name="5" x="2.225" y="-1.3" dx="0.7" dy="0.38" layer="1"/>
-<wire x1="-1.25" y1="1.9" x2="1.25" y2="1.9" width="0.127" layer="46"/>
-<wire x1="1.25" y1="1.9" x2="1.25" y2="-0.4" width="0.127" layer="46"/>
-<wire x1="1.25" y1="-0.4" x2="-1.25" y2="-0.4" width="0.127" layer="46"/>
-<wire x1="-1.25" y1="-0.4" x2="-1.25" y2="1.9" width="0.127" layer="46"/>
 <wire x1="-2.3" y1="1.7" x2="-2.3" y2="1.9" width="0.2032" layer="21"/>
 <wire x1="-2.3" y1="1.9" x2="2.3" y2="1.9" width="0.2032" layer="21"/>
 <wire x1="2.3" y1="1.9" x2="2.3" y2="1.7" width="0.2032" layer="21"/>
@@ -16857,15 +16468,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.3" y1="-1.9" x2="2.3" y2="-1.7" width="0.2032" layer="21"/>
 <text x="-1.3335" y="-1.06045" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
 <text x="-1.3589" y="-1.82245" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
-<rectangle x1="-1.25" y1="-0.4" x2="1.25" y2="1.9" layer="39"/>
-<wire x1="-1.25" y1="1.9" x2="1.25" y2="1.9" width="0.127" layer="20"/>
-<wire x1="1.25" y1="1.9" x2="1.25" y2="-0.4" width="0.127" layer="20"/>
-<wire x1="1.25" y1="-0.4" x2="-1.25" y2="-0.4" width="0.127" layer="20"/>
-<wire x1="-1.25" y1="-0.4" x2="-1.25" y2="1.9" width="0.127" layer="20"/>
 <text x="-0.1" y="0.1" size="0.254" layer="21">3</text>
 <text x="-0.1" y="1.2" size="0.254" layer="21">1</text>
-<text x="-0.7" y="0.6" size="0.254" layer="21">2</text>
-<text x="0.5" y="0.6" size="0.254" layer="21">4</text>
+<text x="0.5065" y="0.6" size="0.254" layer="21">2</text>
+<text x="-0.6303" y="0.6" size="0.254" layer="21">4</text>
 <wire x1="-0.4" y1="1" x2="-0.4" y2="0.5" width="0.0254" layer="51"/>
 <wire x1="-0.4" y1="0.5" x2="-0.8" y2="0.1" width="0.0254" layer="51"/>
 <wire x1="-0.8" y1="0.1" x2="-0.8" y2="1.4" width="0.0254" layer="51"/>
@@ -16931,15 +16537,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="&quot;" package="SON10">
 <connects>
-<connect gate="U1" pin="CAD0" pad="2"/>
-<connect gate="U1" pin="CAD1" pad="3"/>
-<connect gate="U1" pin="DVDD" pad="8"/>
-<connect gate="U1" pin="GND" pad="9 10"/>
-<connect gate="U1" pin="INT" pad="4"/>
-<connect gate="U1" pin="PDN" pad="5"/>
-<connect gate="U1" pin="SCL" pad="7"/>
-<connect gate="U1" pin="SDA" pad="6"/>
-<connect gate="U1" pin="VDD" pad="1"/>
+<connect gate="U1" pin="CAD0" pad="9"/>
+<connect gate="U1" pin="CAD1" pad="8"/>
+<connect gate="U1" pin="DVDD" pad="3"/>
+<connect gate="U1" pin="GND" pad="1 2"/>
+<connect gate="U1" pin="INT" pad="7"/>
+<connect gate="U1" pin="PDN" pad="6"/>
+<connect gate="U1" pin="SCL" pad="4"/>
+<connect gate="U1" pin="SDA" pad="5"/>
+<connect gate="U1" pin="VDD" pad="10"/>
 </connects>
 <technologies>
 <technology name="">
@@ -17003,7 +16609,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP8" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value=""/>
 <part name="R6" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="U$3" library="openPIR-temp" deviceset="PIR-LENS" device="CWM-0.5-GI-V1" value="CWM 0.5 GI V1"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
 <part name="JP9" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="JP10" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
@@ -17090,7 +16695,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="JP8" gate="G$1" x="167.64" y="71.12" rot="R90"/>
 <instance part="R6" gate="G$1" x="63.5" y="132.08" rot="R90"/>
 <instance part="SUPPLY10" gate="G$1" x="63.5" y="139.7"/>
-<instance part="U$3" gate="G$1" x="45.72" y="10.16"/>
 <instance part="LOGO2" gate="G$1" x="89.154" y="1.27"/>
 <instance part="JP9" gate="G$1" x="233.68" y="30.48"/>
 <instance part="JP10" gate="G$1" x="238.76" y="30.48"/>
