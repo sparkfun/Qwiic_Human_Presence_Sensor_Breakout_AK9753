@@ -16618,7 +16618,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="170.434" y="11.43" size="2.54" layer="94">N. Seidle</text>
-<text x="237.744" y="7.366" size="2.54" layer="94">v01</text>
+<text x="237.744" y="7.366" size="2.54" layer="94">v10</text>
 <text x="182.626" y="121.412" size="1.27" layer="97" align="center-left">Default 7-Bit Address: 0x64</text>
 <text x="185.928" y="117.856" size="1.27" layer="97" align="center-left">ADR0</text>
 <text x="187.96" y="115.824" size="1.27" layer="97" align="center-left">0   0    0x64</text>
