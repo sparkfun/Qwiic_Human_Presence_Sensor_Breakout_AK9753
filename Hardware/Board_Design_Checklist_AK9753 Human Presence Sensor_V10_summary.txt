@@ -1,0 +1,6 @@
+1) Do all VCC connections use the VCC symbol (oriented upward)? [NO]
+comment: 3.3V
+
+2) Does this board adhere to the standard manufacturing process? (Kitting time, glue curing, humidor time, etc.) [NO]
+comment: Lens must be glued to sensor
+
