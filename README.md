@@ -1,41 +1,27 @@
-SparkFun <PRODUCT NAME>
+SparkFun Qwiic Human Presence Sensor (AK9753)
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+![SparkFun Qwiic Human Presence Sensor (AK9753)](https://cdn.sparkfun.com/assets/parts/1/2/3/3/1/14349-01.jpg)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Qwiic Human Presence Sensor (SEN-14349)*](https://www.sparkfun.com/products/14349)
 
-<Basic description of the part.>
+The AK9753 Human Presence Sensor is a 4 channel NDIR sensor meant to detect human movement.
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Library](GitHub library URL)** - Arduino library for the AK9753.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-human-presence-sensor-ak9753)** - Basic hookup guide for the Qwiic Human Presence Sensor.
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU] (retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [SEN-14349](https://www.sparkfun.com/products/14349)- The AK9753 Human Presence Sensor is a 4 channel NDIR sensor meant to detect human movement.
 
 License Information
 -------------------

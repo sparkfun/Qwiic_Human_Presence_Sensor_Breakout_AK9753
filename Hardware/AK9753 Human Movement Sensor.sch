@@ -16698,7 +16698,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="191.008" y="117.856" size="1.27" layer="97" align="center-left">ADR1</text>
 <text x="196.85" y="117.856" size="1.27" layer="97" align="center-left">Address</text>
 <text x="187.96" y="113.284" size="1.27" layer="97" align="center-left">0   1    0x65</text>
-<text x="187.96" y="110.744" size="1.27" layer="97" align="center-left">1   0    0x66</text>
+<text x="187.96" y="110.744" size="1.27" layer="97" align="center-left">1   0    0x67</text>
 <text x="187.96" y="108.204" size="1.27" layer="97" align="center-left">1   1    Switch Mode</text>
 <text x="174.498" y="7.112" size="2.54" layer="94">A. England</text>
 <text x="169.672" y="71.12" size="1.27" layer="97" font="vector" align="center-left">Interrupt Pullup</text>
