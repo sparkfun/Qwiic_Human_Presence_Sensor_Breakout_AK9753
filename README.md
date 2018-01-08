@@ -16,7 +16,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - Arduino library for the AK9753.
+* **[Library](https://github.com/sparkfun/SparkFun_AK975x_Arduino_Library)** - Arduino library for the AK9753.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-human-presence-sensor-ak9753)** - Basic hookup guide for the Qwiic Human Presence Sensor.
 
 Product Versions
