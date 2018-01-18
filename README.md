@@ -11,13 +11,13 @@ Repository Contents
 -------------------
 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
+* **/Libraries** - Libraries for use with the SparkFun Human Presence Sensor Breakout - AK9753 (Qwiic).
 * **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_AK975x_Arduino_Library)** - Arduino library for the AK9753.
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-human-presence-sensor-ak9753)** - Basic hookup guide for the Qwiic Human Presence Sensor.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-human-presence-sensor-ak9753-hookup-guide)** - Basic hookup guide for the Qwiic Human Presence Sensor.
 
 Product Versions
 ----------------
